@@ -1,0 +1,129 @@
+{
+    "policies": [
+      {
+        "policy_number": "POL1234",
+        "customer_profile": {
+          "demographic": {
+            "first_name": "John",
+            "last_name": "Doe",
+            "age": 45,
+            "gender": "Male",
+            "marital_status": "Married",
+            "address": {
+              "street": "123 Main St",
+              "city": "Sydney",
+              "state": "NSW",
+              "postal_code": "2000",
+              "country": "Australia"
+            }
+          },
+          "medical": {
+            "conditions": [
+              "Hypertension",
+              "Type 2 Diabetes"
+            ],
+            "lab_report": {
+            "HbA1C": {
+                    "level": 7.4,
+                    "unit": "%"
+                },
+            "blood_pressure": {
+                    "systolic": 160,
+                    "diastolic": 95,
+                    "unit": "mmHg"
+                }
+            },   
+            "medications": [
+              {
+                "name": "Metformin",
+                "dosage": "500mg",
+                "frequency": "Twice daily"
+              },
+              {
+                "name": "Lisinopril",
+                "dosage": "10mg",
+                "frequency": "Once daily"
+              }
+            ],
+            "allergies": [
+              "Penicillin"
+            ]
+          },
+          "financial": {
+            "employment_status": "Employed",
+            "occupation": "Software Engineer",
+            "annual_income": 120000,
+            "assets": {
+              "savings_account": 30000,
+              "investment_portfolio": 50000,
+              "property_value": 800000
+            },
+            "liabilities": {
+              "mortgage": 400000,
+              "credit_card_debt": 5000
+            }
+          }
+        }
+      },
+      {
+        "policy_number": "POL5678",
+        "customer_profile": {
+          "demographic": {
+            "first_name": "Jane",
+            "last_name": "Smith",
+            "age": 38,
+            "gender": "Female",
+            "marital_status": "Single",
+            "address": {
+              "street": "456 Elm St",
+              "city": "Melbourne",
+              "state": "VIC",
+              "postal_code": "3000",
+              "country": "Australia"
+            }
+          },
+          "medical": {
+            "conditions": [
+              "Asthma"
+            ],
+            "lab_report": {
+                "HbA1C": {
+                        "level": 5.4,
+                        "unit": "%"
+                    },
+                "blood_pressure": {
+                        "systolic": 120,
+                        "diastolic": 80,
+                        "unit": "mmHg"
+                    }
+                }, 
+            "medications": [
+              {
+                "name": "Albuterol",
+                "dosage": "90mcg",
+                "frequency": "As needed"
+              }
+            ],
+            "allergies": [
+              "None"
+            ]
+          },
+          "financial": {
+            "employment_status": "Self-Employed",
+            "occupation": "Graphic Designer",
+            "annual_income": 80000,
+            "assets": {
+              "savings_account": 20000,
+              "investment_portfolio": 30000,
+              "property_value": 600000
+            },
+            "liabilities": {
+              "mortgage": 300000,
+              "credit_card_debt": 2000
+            }
+          }
+        }
+      }
+    ]
+  }
+  

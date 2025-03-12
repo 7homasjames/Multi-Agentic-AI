@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # FastAPI endpoint
-API_URL = "http://localhost:8000/agentic_workflow/"  # Change if hosted elsewhere
+API_URL = "http://localhost:8000/agentic_workflow/"  
 
 st.title("AI Insurance Risk Assessor")
 st.markdown("Enter a policy number to analyze risk factors.")

@@ -9,7 +9,6 @@ This project consists of a FastAPI backend and a Streamlit frontend designed to 
 - **AI Agent Workflow**: Utilizes multiple AI agents to assess risks based on policyholder information.
 - **Autogen Integration**: Leverages OpenAI-powered AI agents for decision-making.
 
-![image](https://github.com/user-attachments/assets/68c76906-62da-497b-8f9c-fce21aaa0edf)
 
 ## Installation
 

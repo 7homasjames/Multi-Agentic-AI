@@ -1,0 +1,6 @@
+fastapi
+pydantic
+uvicorn
+streamlit
+requests
+autogen
